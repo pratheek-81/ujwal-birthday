@@ -113,6 +113,32 @@ body {
   text-align: center;
   position: relative;
   padding: 40px 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #FF6B9D 100%) !important;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+  border-radius: 50%;
+  top: 10%;
+  left: 5%;
+  animation: float 15s ease-in-out infinite;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(255, 107, 157, 0.15) 0%, transparent 70%);
+  border-radius: 50%;
+  bottom: -10%;
+  right: 5%;
+  animation: float 20s ease-in-out infinite reverse;
 }
 
 .title {
@@ -120,9 +146,11 @@ body {
   font-weight: 900;
   color: white;
   margin-bottom: 20px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4), 0 0 30px rgba(255, 255, 255, 0.2);
   letter-spacing: 3px;
   animation: titleAnimation 1.5s ease-out;
+  position: relative;
+  z-index: 2;
 }
 
 .letter {
@@ -201,7 +229,9 @@ body {
   color: #ffe66d;
   margin-bottom: 20px;
   animation: slideIn 1s ease-out 0.5s both;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+  position: relative;
+  z-index: 2;
 }
 
 .tagline {
@@ -209,6 +239,8 @@ body {
   color: rgba(255, 255, 255, 0.95);
   margin-bottom: 40px;
   animation: slideIn 1s ease-out 0.7s both;
+  position: relative;
+  z-index: 2;
 }
 
 @keyframes slideIn {
@@ -233,8 +265,8 @@ body {
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-  animation: slideIn 1s ease-out 0.9s both;
-}
+  animation: slideIn 1s ease-out 0.9s both;  position: relative;
+  z-index: 2;}
 
 .cta-button:hover {
   transform: scale(1.05);
@@ -312,7 +344,7 @@ section {
 
 .memory-image {
   width: 100%;
-  height: 250px;
+  height: 380px;
   overflow: hidden;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
