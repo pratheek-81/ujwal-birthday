@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎉 Happy Birthday Ujwal! 🎉</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+
+    <!-- Confetti Canvas -->
+    <canvas id="confetti"></canvas>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="title">
+                <span class="letter">H</span>
+                <span class="letter">A</span>
+                <span class="letter">P</span>
+                <span class="letter">P</span>
+                <span class="letter">Y</span>
+                <span class="letter"> </span>
+                <span class="letter">B</span>
+                <span class="letter">I</span>
+                <span class="letter">R</span>
+                <span class="letter">T</span>
+                <span class="letter">H</span>
+                <span class="letter">D</span>
+                <span class="letter">A</span>
+                <span class="letter">Y</span>
+            </h1>
+            <h2 class="subtitle">🎂 Ujwal Periketi 🎂</h2>
+            <p class="tagline">Today is YOUR day to shine! ✨</p>
+            <button class="cta-button" onclick="celebrateClick()">Click to Celebrate! 🎊</button>
+        </div>
+    </section>
+
+    <!-- Memory Gallery -->
+    <section class="gallery">
+        <div class="container">
+            <h2 class="section-title">Our Favorite Memories Together 📸</h2>
+            <div class="memories-grid">
+                <div class="memory-card">
+                    <div class="memory-image">
+                        <img src="images/memory1.jpg" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22300%22%3E%3Crect fill=%22%23FF6B9D%22 width=%22300%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 font-size=%2248%22 font-family=%22Arial%22 fill=%22white%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22%3E📸 Memory 1%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="memory-text">
+                        <h3>Add Your Photo Here!</h3>
+                        <p>Replace 'images/memory1.jpg' with your favorite memory</p>
+                    </div>
+                </div>
+
+                <div class="memory-card">
+                    <div class="memory-image">
+                        <img src="images/memory2.jpg" alt="Memory 2" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22300%22%3E%3Crect fill=%22%2347B881%22 width=%22300%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 font-size=%2248%22 font-family=%22Arial%22 fill=%22white%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22%3E📸 Memory 2%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="memory-text">
+                        <h3>Another Amazing Moment!</h3>
+                        <p>Replace 'images/memory2.jpg' with your photo</p>
+                    </div>
+                </div>
+
+                <div class="memory-card">
+                    <div class="memory-image">
+                        <img src="images/memory3.jpg" alt="Memory 3" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22300%22%3E%3Crect fill=%22%234A90E2%22 width=%22300%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 font-size=%2248%22 font-family=%22Arial%22 fill=%22white%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22%3E📸 Memory 3%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="memory-text">
+                        <h3>Beautiful Times Together</h3>
+                        <p>Replace 'images/memory3.jpg' with your photo</p>
+                    </div>
+                </div>
+
+                <div class="memory-card">
+                    <div class="memory-image">
+                        <img src="images/memory4.jpg" alt="Memory 4" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22300%22%3E%3Crect fill=%22%23F5A623%22 width=%22300%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 font-size=%2248%22 font-family=%22Arial%22 fill=%22white%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22%3E📸 Memory 4%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="memory-text">
+                        <h3>Cherished Moments</h3>
+                        <p>Replace 'images/memory4.jpg' with your photo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Birthday Message -->
+    <section class="message-section">
+        <div class="container">
+            <div class="message-box">
+                <h2 class="section-title">A Special Message for You 💌</h2>
+                <div class="message-content">
+                    <p>Dear Ujwal,</p>
+                    <p>Today marks a special day in this world - the day YOU were born! 🎂✨</p>
+                    <p>On your birthday, I want to celebrate not just the day, but YOU - your amazing personality, your wonderful sense of humor, and the incredible friend you are. Your presence in my life brings so much joy and laughter.</p>
+                    <p>Thank you for all the memories, the laughs, and the moments we've shared. Here's to creating many more unforgettable moments together!</p>
+                    <p><strong>May this year bring you endless happiness, success, and all the things your heart desires. Have the BEST birthday ever!</strong> 🎉🎊🎈</p>
+                    <p style="margin-top: 30px; font-style: italic;">With love and endless wishes for your happiness,</p>
+                    <p style="font-weight: bold; font-size: 1.2em;">Your Friend 💝</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wishes Section -->
+    <section class="wishes-section">
+        <div class="container">
+            <h2 class="section-title">Birthday Wishes & Fun Facts 🌟</h2>
+            <div class="wishes-grid">
+                <div class="wish-card">
+                    <div class="wish-icon">🎯</div>
+                    <h3>May all your dreams come true!</h3>
+                    <p>This year is YOUR year to achieve everything you've been working towards.</p>
+                </div>
+
+                <div class="wish-card">
+                    <div class="wish-icon">💪</div>
+                    <h3>Be your best self!</h3>
+                    <p>You have the strength and talent to accomplish anything you set your mind to.</p>
+                </div>
+
+                <div class="wish-card">
+                    <div class="wish-icon">❤️</div>
+                    <h3>Spread love and joy!</h3>
+                    <p>Your kindness touches hearts and makes the world a better place.</p>
+                </div>
+
+                <div class="wish-card">
+                    <div class="wish-icon">🚀</div>
+                    <h3>Reach for the stars!</h3>
+                    <p>The universe is yours to explore. Keep growing and learning!</p>
+                </div>
+
+                <div class="wish-card">
+                    <div class="wish-icon">🎪</div>
+                    <h3>Have endless fun!</h3>
+                    <p>Life is too short not to enjoy every single moment to the fullest.</p>
+                </div>
+
+                <div class="wish-card">
+                    <div class="wish-icon">✨</div>
+                    <h3>Shine bright like a diamond!</h3>
+                    <p>Your uniqueness is your superpower. Never stop being yourself.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Birthday Cake -->
+    <section class="cake-section">
+        <div class="container">
+            <h2 class="section-title">Make a Birthday Wish! 🎂</h2>
+            <div class="cake-container">
+                <canvas id="candles"></canvas>
+                <p class="cake-text">Click on the candles to blow them out!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline-section">
+        <div class="container">
+            <h2 class="section-title">Why Ujwal is Awesome! 🌟</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Amazing Friend</h3>
+                        <p>Always there when it matters most, with a smile and support.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Talented & Creative</h3>
+                        <p>Brings innovation and fresh ideas to everything you do.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Fun to be Around</h3>
+                        <p>Your infectious energy and humor brighten everyone's day!</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Genuine & Kind</h3>
+                        <p>Your authentic nature and compassion inspire those around you.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Born to Shine</h3>
+                        <p>This is YOUR year to reach new heights and celebrate success!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>🎉 Made with ❤️ for Ujwal's Birthday 🎉</p>
+            <p>May every day of your year be as special as you are!</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
