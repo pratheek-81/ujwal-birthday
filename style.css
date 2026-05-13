@@ -379,9 +379,7 @@ section {
 }
 
 .memory-text {
-  padding: 12px;
-  text-align: center;
-  min-height: 0;
+  display: none;
 }
 
 .memory-text h3 {
