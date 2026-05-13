@@ -18,6 +18,7 @@ That's it! The website automatically handles different photo sizes.
 ## Quick GitHub Pages Setup (5 minutes) 🌐
 
 ### Prerequisites
+
 - GitHub account (create at [github.com](https://github.com) if needed)
 - Git installed on your computer (download from [git-scm.com](https://git-scm.com))
 
@@ -79,6 +80,7 @@ Wait 2-3 minutes for the website to update.
 ## Website Preview ✨
 
 Your website includes:
+
 - ✅ Animated "Happy Birthday" header
 - ✅ Celebration button with confetti
 - ✅ Photo gallery section
@@ -93,17 +95,20 @@ Your website includes:
 ## Need Help?
 
 **Photos not showing?**
+
 - Make sure filenames are exactly: `memory1.jpg`, `memory2.jpg`, `memory3.jpg`, `memory4.jpg`
 - Check they're in the `images` folder
 - Try .jpg, .png, or .webp formats
 
 **GitHub Pages not showing?**
+
 - Wait 2-3 minutes after pushing
 - Check repository is Public
 - Verify Pages settings: Source = Branch (main), Folder = /root
 - Check there are no errors in the Actions tab
 
 **Want to customize the text?**
+
 - Edit `index.html` to change messages
 - Edit `style.css` to change colors/fonts
 - Edit `script.js` for advanced changes

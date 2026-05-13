@@ -27,6 +27,7 @@ A beautiful, interactive birthday celebration website with animations, confetti 
 ## How to Host on GitHub Pages 🚀
 
 ### Step 1: Create a GitHub Repository
+
 1. Go to [GitHub.com](https://github.com)
 2. Click the "+" icon in the top right and select "New repository"
 3. Name it `ujwal-birthday` (or any name you prefer)
@@ -35,6 +36,7 @@ A beautiful, interactive birthday celebration website with animations, confetti 
 6. Click "Create repository"
 
 ### Step 2: Push Your Website to GitHub
+
 Open PowerShell in this folder and run these commands:
 
 ```powershell
@@ -56,6 +58,7 @@ git push -u origin main
 ```
 
 ### Step 3: Enable GitHub Pages
+
 1. Go to your repository on GitHub
 2. Click **Settings** (gear icon)
 3. Scroll down to **Pages** section (on the left sidebar)
@@ -66,6 +69,7 @@ git push -u origin main
 6. Wait a few seconds, then refresh the page
 
 ### Step 4: Get Your Live Link
+
 1. In the Pages section, you'll see your live URL like:
    ```
    https://USERNAME.github.io/ujwal-birthday/
@@ -106,16 +110,19 @@ Birthday_website/
 ## Troubleshooting 🔧
 
 **Website doesn't load?**
+
 - Check that GitHub Pages is enabled in Settings → Pages
 - Make sure the branch is set to "main"
 - Wait 2-3 minutes for GitHub Pages to build
 
 **Photos not showing?**
+
 - Ensure image files are in the `images` folder with correct names
 - Try different image formats (.jpg, .png, .gif)
 - Check that file names match exactly (lowercase)
 
 **Want to update it later?**
+
 ```powershell
 # Make changes, then run:
 git add .
